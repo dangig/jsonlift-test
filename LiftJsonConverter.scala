@@ -19,7 +19,7 @@ object LiftJsonConverter {
 	}
 	""")
 
-    // This will convert "json" defined above, into a Mailserver instance.  
+    // This will convert JSON (mailserverjson) defined above, into a Mailserver instance.  
     val m = mailserverjson.extract[Mailserver]
     println(m.url)
     println(m.username)
