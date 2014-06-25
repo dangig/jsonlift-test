@@ -4,7 +4,7 @@ import net.liftweb.json.JsonAST._
 import net.liftweb.json.Extraction._
 import net.liftweb.json.Printer._
 
-object LiftJsonConverterDecompose {
+object LiftJsonConverterDecomposer {
 
 implicit val formats = net.liftweb.json.DefaultFormats
 
